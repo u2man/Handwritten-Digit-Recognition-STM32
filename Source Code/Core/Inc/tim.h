@@ -1,8 +1,8 @@
 /**
   ******************************************************************************
-  * File Name          : CRC.h
+  * File Name          : TIM.h
   * Description        : This file provides code for the configuration
-  *                      of the CRC instances.
+  *                      of the TIM instances.
   ******************************************************************************
   * @attention
   *
@@ -17,8 +17,8 @@
   ******************************************************************************
   */
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __crc_H
-#define __crc_H
+#ifndef __tim_H
+#define __tim_H
 #ifdef __cplusplus
  extern "C" {
 #endif
@@ -30,13 +30,13 @@
 
 /* USER CODE END Includes */
 
-extern CRC_HandleTypeDef hcrc;
+extern TIM_HandleTypeDef htim1;
 
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
 
-void MX_CRC_Init(void);
+void MX_TIM1_Init(void);
 
 /* USER CODE BEGIN Prototypes */
 
@@ -45,7 +45,7 @@ void MX_CRC_Init(void);
 #ifdef __cplusplus
 }
 #endif
-#endif /*__ crc_H */
+#endif /*__ tim_H */
 
 /**
   * @}

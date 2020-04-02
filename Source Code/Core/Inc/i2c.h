@@ -1,8 +1,8 @@
 /**
   ******************************************************************************
-  * File Name          : CRC.h
+  * File Name          : I2C.h
   * Description        : This file provides code for the configuration
-  *                      of the CRC instances.
+  *                      of the I2C instances.
   ******************************************************************************
   * @attention
   *
@@ -17,8 +17,8 @@
   ******************************************************************************
   */
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __crc_H
-#define __crc_H
+#ifndef __i2c_H
+#define __i2c_H
 #ifdef __cplusplus
  extern "C" {
 #endif
@@ -30,13 +30,13 @@
 
 /* USER CODE END Includes */
 
-extern CRC_HandleTypeDef hcrc;
+extern I2C_HandleTypeDef hi2c3;
 
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
 
-void MX_CRC_Init(void);
+void MX_I2C3_Init(void);
 
 /* USER CODE BEGIN Prototypes */
 
@@ -45,7 +45,7 @@ void MX_CRC_Init(void);
 #ifdef __cplusplus
 }
 #endif
-#endif /*__ crc_H */
+#endif /*__ i2c_H */
 
 /**
   * @}
